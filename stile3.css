@@ -1,0 +1,101 @@
+
+body
+{
+    margin: 70px 0px;
+    font-family: "lato",sans-serif;
+    background-color: dimgrey;
+}
+
+.bar
+{
+    width: 100px;
+    height: 2px;
+    margin: 0 auto;
+    background: #ffa500;
+}
+
+.titre
+{
+ text-align: center;
+ margin-bottom: 60px;    
+}
+
+h2
+{ 
+    text-transform: uppercase;
+    color: aliceblue;
+    font-weight: bold;
+}
+
+.affect
+{
+    font-size: 20px;
+    background: #fff;
+    padding:40px;
+    border-radius: 10px;
+    border:solid;
+    
+    width: 1500px;
+}
+
+.bleu
+{
+  color: #0069d6;
+}
+
+.form-control
+{
+    height: 50px;
+    font-size: 18px;
+    width: 500px;
+}
+
+.comment
+{
+  font-style: italic;
+  font-size: 18px;
+  color: #d82c2e;
+  height: 25px;    
+}
+
+#affect input[type = submit]
+{
+
+ margin: 40px auto 0;
+ display: block;    
+
+}
+
+
+.button1
+{
+ border: 1px solid #ddd;
+ background: #ffa500;
+ width:30%;
+ font-weight: bold;
+ text-transform: uppercase;
+ height: 60px; 
+ padding: 18px;
+ border-radius: 5px;    
+    
+}
+
+.button1:hover
+{
+    background: #ddd;
+    border-color: #ffa500;
+}
+
+
+.inp
+{
+ width: 1000px;
+ height: 50px;
+ border-radius: 20x;
+  border: 1px solid #ddd;
+}
+
+
+
+
+

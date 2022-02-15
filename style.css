@@ -1,0 +1,248 @@
+                                            /* general */
+*{
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+ 
+
+body
+{
+    font-family: arial,sans-serif;
+    font-size: 15px;
+}
+
+.wrapper
+{
+ width:940px;
+ margin: 0 auto;
+ padding: 0 10px;
+}
+
+ul
+{
+  list-style: none;  
+}
+
+a
+{
+    text-decoration: none;
+    color: #444;
+}
+
+h1
+{
+    font-family: 'crete round',sans-serif;
+    font-size: 45px;
+    color: #444;
+}
+h3
+{
+    font-size: 30px;
+    color: #444;
+}
+
+.clear
+{
+    clear: both;
+}
+
+
+
+
+
+
+
+                                                           /* PARTIE HEADER */
+header
+{
+ height: 120px;
+}
+
+header img   
+{
+  float: left ;
+  width: 200px;
+  display: block;
+  margin-left: 380px ;
+  opacity: 0.6;    
+  
+}
+
+
+
+                                                         /* main image */
+
+
+
+
+
+#main-image
+{
+    background-image: url(image/main.jpg);
+    background-position: center;
+    height: 780px;
+    background-repeat: no-repeat;
+    margin-top: 82px;
+}
+
+
+ h2 
+{
+  text-align: center;
+  font-size: 16px;
+  font-weight: 600px;
+  text-transform: uppercase;
+  margin: 40px 8px 10px 8px;
+}
+
+.log 
+{
+  display: flex;
+  align-items: center;
+  flex-direction: column; 
+  justify-content: center;
+  width: 100%;
+  min-height: 100%;
+  padding: 50px;
+  
+}
+
+#formcontent
+{
+  border-radius: 10px 10px 10px 10px;
+  border-radius: 10px 10px 10px 10px;
+  background:#fff;
+  opacity: 0.75;
+  padding: 50px;    
+  width: 40%;   
+  position: relative;
+  box-shadow: 0 30px 60px 0 rgba(0,0,0,0.3);
+  box-shadow: 0 30px 60px 0 rgba(0,0,0,0.3);  
+  
+}
+
+#formFooter 
+{
+  background-color: #f6f6f6;
+  border-top: 1px solid #dce8f1;
+  padding: 25px;
+  text-align: center;
+}
+
+
+h2.active {
+  color: #0d0d0d;
+  border-bottom: 2px solid #5fbae9;
+}
+
+ #formcontent input[type=submit]
+{
+  background-color: #56baed;
+  border: none;
+  color: white;
+  padding: 15px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  text-transform: uppercase;
+  font-size: 13px;
+  border-radius: 5px 5px 5px 5px;
+  margin: 10px auto  ;
+  width: 85%;    
+  
+}
+
+#formcontent input[type=submit]:hover
+{
+   background-color: #444;
+}
+
+#formcontent input[type="text"] , input[type="password"] {
+  background-color: #f6f6f6;
+  border: none;
+  color: #0d0d0d;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 5px;
+  width: 85%;
+  border: 2px solid black;
+  border-radius: 5px 5px 5px 5px;
+  
+}
+
+.logo
+{
+    width:60%;
+    height: auto;
+    align-items: center;
+    background-color: deepskyblue;
+    display: flex;
+    justify-content: center;
+    margin :0 auto;
+    min-width: 20%;
+    max-width: 80%;
+}
+
+#formContent form
+{
+    margin :20px 0 20px 50px;
+    
+}
+
+
+
+                                                 /* contacte */
+
+
+
+
+                                /* footer */
+
+
+footer
+{
+    height: 260px;
+    background-color: #444;
+}
+
+.foot
+{
+    padding-top: 100px;
+}
+.foot ul
+{
+   padding-left: 410px; 
+}
+
+.foot ul li
+{
+ display: inline-block;
+       
+}
+
+.foot ul li a
+{
+ margin-right: 5px;
+       
+}
+
+footer h5
+{
+    color: white;
+    text-align: center;
+    padding-top: 5px;
+    
+}
+
+
+
+
+
+
